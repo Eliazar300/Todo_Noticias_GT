@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Photo with Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Center align text */
+			background-color:royalblue;
+        }
+        .container {
+            max-width: 300px; /* Adjust max-width as per your preference */
+            margin: 0 auto; /* Center align container */
+            padding: 20px;
+
+		
+        }
+        .photo {
+            display: block;
+            margin: 0 auto; /* Center align photo */
+            max-width: 100%; /* Ensure photo doesn't exceed container width */
+            height: auto; /* Maintain aspect ratio */
+           /* opacity: 0.5; /* Adjust the opacity value (0.0 to 1.0) */
+        }
+        .principal{
+            background-color: aliceblue;
+           display: block;
+            max-width: 100%;
+           height:900px;
+        }
+		a {
+            color:black;
+        }
+        .principal{
+            background-image: url(fondo.jpg);
+            width: 100%;
+         height: 900px; /* Altura de tu div */
+   
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+   <div class="principal">
+    
+    <div class="con1">
+        <p>Este es un texto <strong>en negrita</strong> utilizando la etiqueta &lt;strong&gt;.</p>
+
+        <nav>
+            <a href="#">Pagina principal</a>
+            <a href="#">Consultas</a>
+            <a href="#">Denuncias</a>
+            <a href="#">ubicaciones</a>
+            <a href="#">contactar</a>
+        </nav>
+        </div>
+        <div class="container">
+            <h1>ULTIMA HORA.</h1>
+            <img src="buscados.jpeg" alt="Your Photo" class="photo">
+            <p>This is a description of the photo. You can replace this text with your own description.</p>
+        </div>
+   </div>
+	
+</body>
+</html>
+
